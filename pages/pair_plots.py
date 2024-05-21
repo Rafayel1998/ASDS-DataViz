@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="👫",
 )
 
-placement_df = pd.read_csv("../Placement_Data_Full_Class.csv")
+placement_df = pd.read_csv("Placement_Data_Full_Class.csv")
 placement_df.drop(columns="sl_no", inplace=True)
 
 categorical_col = ["gender", "ssc_b", "hsc_b", "hsc_s", "degree_t", "workex", "specialisation", "status"]

@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="🤝",
 )
 
-placement_df = pd.read_csv("../Placement_Data_Full_Class.csv")
+placement_df = pd.read_csv("Placement_Data_Full_Class.csv")
 placement_df.drop(columns="sl_no", inplace=True)
 
 placement_df["gender"] = placement_df["gender"].map(dict(F=0, M=1))

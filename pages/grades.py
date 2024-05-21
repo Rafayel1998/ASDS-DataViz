@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="💯",
 )
 
-placement_df = pd.read_csv("../Placement_Data_Full_Class.csv")
+placement_df = pd.read_csv("Placement_Data_Full_Class.csv")
 placement_df.drop(columns="sl_no", inplace=True)
 
 grades = ["degree_p", "etest_p", "hsc_p", "mba_p", "ssc_p"]
