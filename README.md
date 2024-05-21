@@ -13,3 +13,5 @@ To run the dashboard use the following command
 ```
  python -m streamlit run welcome.py --server.address=0.0.0.0
 ```
+
+You can find it deployed [here](https://asds-dataviz.onrender.com/)
